@@ -51,6 +51,7 @@ export const metadata: Metadata = {
   verification: {
     google: "your-google-verification-code",
   },
+  metadataBase: new URL('https://your-domain.com'),
 };
 
 export default function RootLayout({

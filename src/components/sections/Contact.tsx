@@ -117,7 +117,7 @@ const Contact = () => {
             className="space-y-8"
           >
             <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Let's Start a Conversation</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">Let&apos;s Start a Conversation</h3>
               <p className="text-gray-600 mb-8">
                 I&apos;m always interested in new opportunities, whether it&apos;s a full-time position, 
                 freelance project, or just a chat about technology and innovation.
