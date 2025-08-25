@@ -44,7 +44,7 @@ const Footer = () => {
             </h3>
             <p className="text-gray-400 mb-4 leading-relaxed">
               Full Stack Developer passionate about creating innovative solutions 
-              and beautiful user experiences. Let's build something amazing together.
+              and beautiful user experiences. Let&apos;s build something amazing together.
             </p>
             <div className="flex items-center text-sm text-gray-400">
               <span>Made with</span>

@@ -94,7 +94,7 @@ const About = () => {
             </h3>
             <div className="space-y-4 text-gray-600 leading-relaxed">
               <p>
-                I'm a full-stack developer with a passion for creating innovative web applications 
+                I&apos;m a full-stack developer with a passion for creating innovative web applications 
                 that solve real-world problems. With expertise spanning both frontend and backend 
                 technologies, I enjoy the entire development process from concept to deployment.
               </p>
@@ -104,8 +104,8 @@ const About = () => {
                 I believe in writing code that not only works but is also maintainable and elegant.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies, contributing to open-source 
-                projects, or sharing knowledge with the developer community. I'm always excited to take on 
+                When I&apos;m not coding, you&apos;ll find me exploring new technologies, contributing to open-source 
+                projects, or sharing knowledge with the developer community. I&apos;m always excited to take on 
                 new challenges and collaborate on meaningful projects.
               </p>
             </div>
@@ -163,7 +163,7 @@ const About = () => {
           </h3>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {skills.map((skill, index) => (
+            {skills.map((skill) => (
               <motion.div
                 key={skill.category}
                 variants={itemVariants}

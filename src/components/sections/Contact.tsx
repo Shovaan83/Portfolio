@@ -32,7 +32,7 @@ const Contact = () => {
       await new Promise(resolve => setTimeout(resolve, 2000));
       setSubmitStatus("success");
       setFormData({ name: "", email: "", subject: "", message: "" });
-    } catch (error) {
+    } catch {
       setSubmitStatus("error");
     } finally {
       setIsSubmitting(false);
@@ -102,8 +102,8 @@ const Contact = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-green-600 mx-auto mb-8"></div>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Have a project in mind or want to collaborate? I'd love to hear from you. 
-            Let's create something amazing together!
+            Have a project in mind or want to collaborate? I&apos;d love to hear from you. 
+            Let&apos;s create something amazing together!
           </p>
         </motion.div>
 
@@ -119,7 +119,7 @@ const Contact = () => {
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Let's Start a Conversation</h3>
               <p className="text-gray-600 mb-8">
-                I'm always interested in new opportunities, whether it's a full-time position, 
+                I&apos;m always interested in new opportunities, whether it&apos;s a full-time position, 
                 freelance project, or just a chat about technology and innovation.
               </p>
             </div>
@@ -281,7 +281,7 @@ const Contact = () => {
                   className="p-4 bg-green-50 border border-green-200 rounded-lg"
                 >
                   <p className="text-green-800 text-sm">
-                    ✅ Message sent successfully! I'll get back to you soon.
+                    ✅ Message sent successfully! I&apos;ll get back to you soon.
                   </p>
                 </motion.div>
               )}

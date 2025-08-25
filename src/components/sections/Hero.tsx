@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import { ChevronDown, Download, Mail } from "lucide-react";
-import Image from "next/image";
 
 const Hero = () => {
   const scrollToNext = () => {
@@ -86,7 +85,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
           >
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-4">
-              Hi, I'm{" "}
+              Hi, I&apos;m{" "}
               <span className="bg-gradient-to-r from-blue-600 to-green-600 bg-clip-text text-transparent">
                 Shovan
               </span>
